@@ -4,6 +4,7 @@ import {
   FaGithub,
   FaEnvelope,
   FaPhoneAlt,
+  FaLinkedin,
 
   // Interests
   FaReact,
@@ -32,8 +33,7 @@ const data = {
   summary: {
     title: 'Summary',
     text: `
-      Recent graduate with a MS in Computer Science looking for an internship/entry level 
-      position to leverage my experience in building mobile-friendly web apps to solve interesting problems.`,
+     Computer science graduate looking to obtain the position as a Software Engineer. Bringing experience in web development technologies and a solid grasp of data structures and object-oriented designs.`
   },
 
   /**
@@ -46,6 +46,11 @@ const data = {
         text: 'https://mkimp.github.io/Portfolio/',
         url: 'https://mkimp.github.io/Portfolio/',
         icon: <FaGlobe />,
+      },
+      {
+        text: 'https://www.linkedin.com/in/kim-p-ma/',
+        url: 'https://www.linkedin.com/in/kim-p-ma/',
+        icon: <FaLinkedin />,
       },
       {
         text: 'github.com/mKimp',
@@ -69,7 +74,7 @@ const data = {
   keySkills: {
     title: 'Key skills',
     list: [
-      { text: 'Java, JavaScript'},
+      { text: 'Java, JavaScript, C++'},
       { text: 'Responsive Web Design' },
       { text: 'HTML5, CSS3' },
       { text: 'OOP'}
@@ -82,11 +87,11 @@ const data = {
   additionalSkills: {
     title: 'Additional skills',
     list: [
-      { text: 'React, Node.js, jQuery'},
-      {text: 'Bootstrap, Wix'},
-      { text: 'GitHub, Git' },
-      { text: 'REST API' },
-      { text: 'Debugging, Problem Solving'}
+      { text: 'React, jQuery, Bootstrap'},
+      { text: 'Nodejs, Express, REST APIs'},
+      { text: 'SQL' },
+      {text: 'Wix, Git'},
+      { text: 'Unit Testing JUnit'}
     ],
   },
 
@@ -146,28 +151,27 @@ const data = {
           'React',
           'React Router',
           'JavaScript',
-          'HTML',
-          'CSS',
+          'MomentJs',
         ],
         description: 
-          ['Improved focusness on each daily task using Pomodoro technique.'] ,
+          ['Improved focuses on each daily task using the Pomodoro technique.'] ,
         url: 'https://pomotodo7.herokuapp.com/',
       },
       {
         name: 'National DashBoard App',
-        techList: ['React', 'Javascript', 'HTML', 'Bootstraps', 'React-Charts', 'Leaflet'],
-        description: ['Interacted with the US National Park Service (NPS) API.', 'Created a highly interactive and responsive cards displaying a different type of info about national parks in a selected state.'],
+        techList: ['React', 'Javascript', 'Bootstraps', 'React-Charts', 'Leaflet'],
+        description: ['Fetched data from the US National Park Service (NPS) API.', 'Created highly interactive and responsive cards displaying different types of information about national parks in a selected state.'],
         url: 'https://agile-ridge-26387.herokuapp.com/',
       },
       {
         name: 'Happy Chat',
-        techList: ['HTML', 'CSS', 'Bootstraps', 'Ajax', 'Javascript', 'Express', 'Opencv4Node'],
-        description: ["Logged in a web chat app using a smile dectection."]
+        techList: ['Bootstraps', 'Ajax', 'Javascript', 'Express', 'Opencv4Node', 'Socket.io', 'Passport.js'],
+        description: ["Logged in a chat room using a Smile (Facial Recognition) detection or Google Account."]
       },
       {
         name: 'Tic Tac Toe',
         techList: ['Java', 'AI (MINIMAX with Alpha Beta Pruning)'],
-        description: ['Played against the AI robot which was built using the minimax with alpha beta pruning'],
+        description: ['Played against the AI robot which was built using the minimax with alpha-beta pruning'],
         url: 'https://agile-ridge-26387.herokuapp.com/',
       },
     ],
@@ -201,7 +205,7 @@ const data = {
         },
         jobTitle: 'Helpdesk Agent',
         description: `
-        Provided general technical support including network connectivity, virtual labs, printers for Portland State University 's faculty, staff, and students.`,
+        Provided general technical support including network connectivity, virtual labs, printers for Portland State University's faculty, staff, and students.`,
         description_team: `Worked collaboratively in a strong team-oriented environment.`,
       },
     ],

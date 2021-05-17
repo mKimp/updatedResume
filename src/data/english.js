@@ -33,7 +33,7 @@ const data = {
   summary: {
     title: 'Summary',
     text: `
-     Computer science graduate looking to obtain the position as a Software Engineer. Bringing experience in web development technologies and a solid grasp of data structures and object-oriented designs.`
+     A recent computer science graduate looking to obtain the entry position as a Software Developer. Bringing experience in web development technologies and a solid grasp of data structures and object-oriented designs.`
   },
 
   /**
@@ -72,13 +72,25 @@ const data = {
    * Key skills
    */
   keySkills: {
-    title: 'Key skills',
+    title: 'Programming Languages',
     list: [
-      { text: 'Java, JavaScript, C++'},
-      { text: 'Responsive Web Design' },
-      { text: 'HTML5, CSS3' },
-      { text: 'OOP'}
+      { text: 'Java'},
+      { text: 'JavaScript'},
+      { text: 'C++'},
     ],
+  },
+
+  /**
+     * Web tech skills
+  */
+
+  webSkills: {
+    title: 'Web Technologies',
+    list: [
+      { text: 'HTML5, CSS3' },
+      { text: 'React, jQuery, Bootstrap'},
+      { text: 'Nodejs, Express, REST APIs'},
+    ]
   },
 
   /**
@@ -87,10 +99,8 @@ const data = {
   additionalSkills: {
     title: 'Additional skills',
     list: [
-      { text: 'React, jQuery, Bootstrap'},
-      { text: 'Nodejs, Express, REST APIs'},
       { text: 'SQL' },
-      {text: 'Wix, Git'},
+      { text: 'Wix, Git'},
       { text: 'Unit Testing JUnit'}
     ],
   },
@@ -154,26 +164,28 @@ const data = {
           'MomentJs',
         ],
         description: 
-          ['Improved focuses on each daily task using the Pomodoro technique.'] ,
+          ['Improved focuses on each daily task drastically by combining the Pomodoro technique with the to-do app, leading to not overspend time on each task.'] ,
         url: 'https://pomotodo7.herokuapp.com/',
       },
       {
         name: 'National DashBoard App',
         techList: ['React', 'Javascript', 'Bootstraps', 'React-Charts', 'Leaflet'],
-        description: ['Fetched data from the US National Park Service (NPS) API.', 'Created highly interactive and responsive cards displaying different types of information about national parks in a selected state.'],
+        description: [
+        'Reduced time on searching multiple places about US National Parks by creating highly interactive and responsive cards to display all necessary information about them in one application.'],
         url: 'https://agile-ridge-26387.herokuapp.com/',
       },
       {
         name: 'Happy Chat',
         techList: ['Bootstraps', 'Ajax', 'Javascript', 'Express', 'Opencv4Node', 'Socket.io', 'Passport.js'],
-        description: ["Logged in a chat room using a Smile (Facial Recognition) detection or Google Account."]
+        description: ["Created successfully a logged in feature of a chat room using a Smile ID (Facial Recognition) detection by implementing the open-source library Opencv4Node."]
       },
+      /*
       {
         name: 'Tic Tac Toe',
         techList: ['Java', 'AI (MINIMAX with Alpha Beta Pruning)'],
-        description: ['Played against the AI robot which was built using the minimax with alpha-beta pruning'],
+        description: ['Reduced the searching time for a move of a Tic Tac Toe robot by using Java and the minimax with alpha-beta pruning algorithm'],
         url: 'https://agile-ridge-26387.herokuapp.com/',
-      },
+      },*/
     ],
   },
 
@@ -193,7 +205,7 @@ const data = {
           end: '2021-03',
         },
         jobTitle: 'Information Technology Intern',
-        description: `Designed and improved the main website that was created using Wix. `,
+        description: `Updated website content regularly by adding new web pages with new content or updating the existing material, leading to a fresh and up-to-date website. `,
         description_team: `Researched and created the content of online summer youth camp.`,
       },
       {
@@ -205,7 +217,7 @@ const data = {
         },
         jobTitle: 'Helpdesk Agent',
         description: `
-        Provided general technical support including network connectivity, virtual labs, printers for Portland State University's faculty, staff, and students.`,
+        Provided general technical support to Portland State University's faculty, staff, and students by applying knowledge on network connectivity, virtual labs, and printers, resulting in helping to troubleshoot different types of problems.`,
         description_team: `Worked collaboratively in a strong team-oriented environment.`,
       },
     ],
@@ -234,7 +246,7 @@ const data = {
         },
       }
     ],
-    courses: 'Data Structures and Algorithm, Software Engineering, Front-End Development, Full-Stack Development, Introduction to Database (MySQL).'
+    courses: 'Data Structures and Algorithm, Software Engineering Development, Full-Stack Web Development, Introduction to Database (MySQL).'
   },
 };
 

@@ -24,13 +24,11 @@ export default function App() {
       <div className="page">
         <div className="column left">
           <Details data={data.contact} />
-          <Details data={data.keySkills} defaultIcon={<FullCheckIcon />} />
+          <Details data={data.keySkills} defaultIcon={<CheckIcon />} />
+          <Details data={data.webSkills} defaultIcon={<FullCheckIcon />} />
           <Details data={data.additionalSkills} defaultIcon={<CheckIcon />} />
           <Details data={data.activities} />
           <Details data={data.certificates} />
-          <Details data={data.languages} defaultIcon={<CommentIcon />} />
-          <Details data={data.interests} />
-
         </div>
 
         <div className="column right">

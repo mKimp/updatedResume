@@ -70,13 +70,8 @@ const data = {
    * Key skills
    */
   keySkills: {
-    title: "Key skills",
-    list: [
-      { text: "Java" },
-      { text: "JavaScript" },
-      { text: "C++" },
-      { text: "Object Oriented Design" },
-    ],
+    title: "Languages",
+    list: [{ text: "Java" }, { text: "JavaScript" }, { text: "C++" }],
   },
 
   /**
@@ -84,25 +79,29 @@ const data = {
    */
 
   webSkills: {
-    title: "Web Technologies",
+    title: "Skills",
     list: [
+      { text: "Object Oriented Design" },
       { text: "HTML5, CSS3" },
+      { text: "SQL" },
+
       { text: "React, jQuery, Bootstrap" },
       { text: "Nodejs, Express, REST APIs" },
-      { text: "Heroku" },
+      { text: "Heroku, Wix, Junit, Postman" },
     ],
   },
 
   /**
    * Additional skills
-   */
+   
   additionalSkills: {
     title: "Additional skills",
     list: [
       { text: "SQL" },
       { text: "CMS (Wix), Git" },
       { text: "Unit Testing JUnit" },
-    ],
+      { text: "Postman" },
+    ], 
   },
 
   /**
@@ -170,14 +169,14 @@ const data = {
         name: "National DashBoard App",
         techList: [
           "React",
-          "Javascript",
+          "National Park Service API",
           "Bootstraps",
           "React-Charts",
           "Leaflet",
           "Heroku",
         ],
         description: [
-          "Reduced time on searching multiple places about US National Parks by creating highly interactive and responsive cards to display all necessary information about them in one application.",
+          "Interacted with National Park Service API to create highly interactive and responsive cards to display all necessary information about US National Parks in one application.",
         ],
         url: "https://agile-ridge-26387.herokuapp.com/",
       },
@@ -216,6 +215,20 @@ const data = {
     title: "Work Experience",
     list: [
       {
+        company: "We Connect The Dots",
+        location: "Westbury, New York",
+        date: {
+          start: "2021-06",
+          end: "current",
+        },
+        jobTitle: "Software Engineer Volunteer",
+        description: [
+          "Handle programming duties including developing the new features and fixing the existing bugs.",
+          "Attend the weekly scrum meeting to develop and work on the items in the backlog.",
+        ],
+        description_team: `Researched and created the content of online summer youth camp.`,
+      },
+      {
         company: "PDX Alliance for Self-Care",
         location: "Portland, OR",
         date: {
@@ -223,7 +236,9 @@ const data = {
           end: "2021-03",
         },
         jobTitle: "Information Technology Intern",
-        description: `Updated website content regularly by adding new web pages with new content or updating the existing material, leading to a fresh and up-to-date website. `,
+        description: [
+          `Updated website content regularly by adding new web pages with new content or updating the existing material, leading to a fresh and up-to-date website. `,
+        ],
         description_team: `Researched and created the content of online summer youth camp.`,
       },
       {
@@ -234,8 +249,10 @@ const data = {
           end: "2021-03",
         },
         jobTitle: "Helpdesk Agent",
-        description: `
+        description: [
+          `
         Provided general technical support to Portland State University's faculty, staff, and students by applying knowledge on network connectivity, virtual labs, and printers, resulting in helping to troubleshoot different types of problems.`,
+        ],
         description_team: `Worked collaboratively in a strong team-oriented environment.`,
       },
     ],

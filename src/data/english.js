@@ -16,53 +16,51 @@ import {
   FaTwitch,
 
   //certificate
-  FaCertificate
-} from 'react-icons/fa';
-
-
+  FaCertificate,
+} from "react-icons/fa";
 
 const data = {
   /**
    * Full name
    */
-  fullName: 'Kim Ma',
+  fullName: "Kim Ma",
 
   /**
    * Summary - short "about me" paragraph
    */
   summary: {
-    title: 'Summary',
+    title: "Summary",
     text: `
-     A recent computer science graduate looking to obtain the entry position as a Software Developer. Bringing experience in web development technologies and a solid grasp of data structures and object-oriented designs.`
+     A recent computer science graduate looking to obtain the entry position as a Software Developer. Bringing experience in web development technologies and a solid grasp of data structures and object-oriented designs.`,
   },
 
   /**
    * Contact details
    */
   contact: {
-    title: 'Contact',
+    title: "Contact",
     list: [
       {
-        text: 'https://mkimp.github.io/Portfolio/',
-        url: 'https://mkimp.github.io/Portfolio/',
+        text: "https://mkimp.github.io/Portfolio/",
+        url: "https://mkimp.github.io/Portfolio/",
         icon: <FaGlobe />,
       },
       {
-        text: 'https://www.linkedin.com/in/kim-p-ma/',
-        url: 'https://www.linkedin.com/in/kim-p-ma/',
+        text: "https://www.linkedin.com/in/kim-p-ma/",
+        url: "https://www.linkedin.com/in/kim-p-ma/",
         icon: <FaLinkedin />,
       },
       {
-        text: 'github.com/mKimp',
-        url: 'https://github.com/mKimp',
+        text: "github.com/mKimp",
+        url: "https://github.com/mKimp",
         icon: <FaGithub />,
       },
       {
-        text: 'phuongkim.ma@gmail.com',
+        text: "phuongkim.ma@gmail.com",
         icon: <FaEnvelope />,
       },
       {
-        text: '(408) 886-1188',
+        text: "(408) 886-1188",
         icon: <FaPhoneAlt />,
       },
     ],
@@ -72,36 +70,38 @@ const data = {
    * Key skills
    */
   keySkills: {
-    title: 'Programming Languages',
+    title: "Key skills",
     list: [
-      { text: 'Java'},
-      { text: 'JavaScript'},
-      { text: 'C++'},
+      { text: "Java" },
+      { text: "JavaScript" },
+      { text: "C++" },
+      { text: "Object Oriented Design" },
     ],
   },
 
   /**
-     * Web tech skills
-  */
+   * Web tech skills
+   */
 
   webSkills: {
-    title: 'Web Technologies',
+    title: "Web Technologies",
     list: [
-      { text: 'HTML5, CSS3' },
-      { text: 'React, jQuery, Bootstrap'},
-      { text: 'Nodejs, Express, REST APIs'},
-    ]
+      { text: "HTML5, CSS3" },
+      { text: "React, jQuery, Bootstrap" },
+      { text: "Nodejs, Express, REST APIs" },
+      { text: "Heroku" },
+    ],
   },
 
   /**
    * Additional skills
    */
   additionalSkills: {
-    title: 'Additional skills',
+    title: "Additional skills",
     list: [
-      { text: 'SQL' },
-      { text: 'Wix, Git'},
-      { text: 'Unit Testing JUnit'}
+      { text: "SQL" },
+      { text: "CMS (Wix), Git" },
+      { text: "Unit Testing JUnit" },
     ],
   },
 
@@ -109,52 +109,50 @@ const data = {
    * Languages I speak
    */
   languages: {
-    title: 'Languages',
-    list: [
-      { text: 'English - Fluent' },
-      { text: 'Vietnamese- Native' },
-    ],
+    title: "Languages",
+    list: [{ text: "English - Fluent" }, { text: "Vietnamese- Native" }],
   },
-  /* Hackathon */ 
+  /* Hackathon */
   activities: {
-    title: 'Hackathon',
+    title: "Hackathon",
     list: [
       {
-        text: 'Local Hack Day: Build (Major League Hacking 2020)', icon: <FaTwitch />,
+        text: "Local Hack Day: Build (Major League Hacking 2020)",
+        icon: <FaTwitch />,
       },
     ],
   },
- 
+
   /**
    * Hobbies and interests
    */
   interests: {
-    title: 'Interests',
+    title: "Interests",
     list: [
-      { text: 'Learning new things', icon: <FaReact /> },
-      { text: 'Building things', icon:  <FaWrench /> },
-      {text: 'Hiking', icon: < FaHiking/>},
-      { text: 'Retrogaming', icon: <FaGamepad />}
+      { text: "Learning new things", icon: <FaReact /> },
+      { text: "Building things", icon: <FaWrench /> },
+      { text: "Hiking", icon: <FaHiking /> },
+      { text: "Retrogaming", icon: <FaGamepad /> },
     ],
   },
 
-  
-    /**
+  /**
    * Certificates and courses
    */
   certificates: {
-    title: 'Certificates',
+    title: "Certificates",
     list: [
       {
-        text: 'Responsive Web Design (freeCodeCamp 2021)',
+        text: "Responsive Web Design (freeCodeCamp 2021)",
         icon: <FaCertificate />,
       },
     ],
   },
 
   projects: {
-    title: 'Projects',
+    title: "Projects",
     list: [
+      /*
       {
         name: 'PomoTodo App',
         techList: [
@@ -162,30 +160,50 @@ const data = {
           'React Router',
           'JavaScript',
           'MomentJs',
+          'Heroku'
         ],
         description: 
           ['Improved focuses on each daily task drastically by combining the Pomodoro technique with the to-do app, leading to not overspend time on each task.'] ,
         url: 'https://pomotodo7.herokuapp.com/',
-      },
+      }, */
       {
-        name: 'National DashBoard App',
-        techList: ['React', 'Javascript', 'Bootstraps', 'React-Charts', 'Leaflet'],
+        name: "National DashBoard App",
+        techList: [
+          "React",
+          "Javascript",
+          "Bootstraps",
+          "React-Charts",
+          "Leaflet",
+          "Heroku",
+        ],
         description: [
-        'Reduced time on searching multiple places about US National Parks by creating highly interactive and responsive cards to display all necessary information about them in one application.'],
-        url: 'https://agile-ridge-26387.herokuapp.com/',
+          "Reduced time on searching multiple places about US National Parks by creating highly interactive and responsive cards to display all necessary information about them in one application.",
+        ],
+        url: "https://agile-ridge-26387.herokuapp.com/",
       },
       {
-        name: 'Happy Chat',
-        techList: ['Bootstraps', 'Ajax', 'Javascript', 'Express', 'Opencv4Node', 'Socket.io', 'Passport.js'],
-        description: ["Created successfully a logged in feature of a chat room using a Smile ID (Facial Recognition) detection by implementing the open-source library Opencv4Node."]
+        name: "Happy Chat",
+        techList: [
+          "Bootstraps",
+          "Ajax",
+          "Javascript",
+          "Express",
+          "Opencv4Node",
+          "Socket.io",
+          "Passport.js",
+        ],
+        description: [
+          "Created successfully a logged in feature of a chat room using a Smile ID (Facial Recognition) detection by implementing the open-source library Opencv4Node.",
+        ],
       },
-      /*
       {
-        name: 'Tic Tac Toe',
-        techList: ['Java', 'AI (MINIMAX with Alpha Beta Pruning)'],
-        description: ['Reduced the searching time for a move of a Tic Tac Toe robot by using Java and the minimax with alpha-beta pruning algorithm'],
-        url: 'https://agile-ridge-26387.herokuapp.com/',
-      },*/
+        name: "Tic Tac Toe",
+        techList: ["Java", "AI (MINIMAX with Alpha Beta Pruning)"],
+        description: [
+          "Reduced the searching time for a move of a Tic Tac Toe robot by applying the minimax with alpha-beta pruning algorithm",
+        ],
+        url: "https://agile-ridge-26387.herokuapp.com/",
+      },
     ],
   },
 
@@ -195,27 +213,27 @@ const data = {
    * Acceptable date format: `YYYY-MM`
    */
   workExperience: {
-    title: 'Work Experience',
+    title: "Work Experience",
     list: [
       {
-        company: 'PDX Alliance for Self-Care',
-        location: 'Portland, OR',
+        company: "PDX Alliance for Self-Care",
+        location: "Portland, OR",
         date: {
-          start: '2021-01',
-          end: '2021-03',
+          start: "2021-01",
+          end: "2021-03",
         },
-        jobTitle: 'Information Technology Intern',
+        jobTitle: "Information Technology Intern",
         description: `Updated website content regularly by adding new web pages with new content or updating the existing material, leading to a fresh and up-to-date website. `,
         description_team: `Researched and created the content of online summer youth camp.`,
       },
       {
-        company: 'Office of Information Technology',
-        location: 'Portland, OR',
+        company: "Office of Information Technology",
+        location: "Portland, OR",
         date: {
-          start: '2017-07',
-          end: '2021-03',
+          start: "2017-07",
+          end: "2021-03",
         },
-        jobTitle: 'Helpdesk Agent',
+        jobTitle: "Helpdesk Agent",
         description: `
         Provided general technical support to Portland State University's faculty, staff, and students by applying knowledge on network connectivity, virtual labs, and printers, resulting in helping to troubleshoot different types of problems.`,
         description_team: `Worked collaboratively in a strong team-oriented environment.`,
@@ -227,26 +245,27 @@ const data = {
    * Education, school, etc
    */
   education: {
-    title: 'Education',
+    title: "Education",
     list: [
       {
-        institution: 'Portland State University',
-        description: 'MS Computer Science',
+        institution: "Portland State University",
+        description: "MS Computer Science",
         date: {
-          start: '2019-04',
-          end: '2021-03',
+          start: "2019-04",
+          end: "2021-03",
         },
       },
       {
-        institution: 'San Franscisco State University',
-        description: 'BS Hospitality Managment',
+        institution: "San Franscisco State University",
+        description: "BS Hospitality Managment",
         date: {
-          start: '2012-09',
-          end: '2014-14',
+          start: "2012-09",
+          end: "2014-14",
         },
-      }
+      },
     ],
-    courses: 'Data Structures and Algorithm, Software Engineering Development, Full-Stack Web Development, Introduction to Database (MySQL).'
+    courses:
+      "Data Structures and Algorithm, Software Engineering Development, Full-Stack Web Development, Introduction to Database (MySQL).",
   },
 };
 

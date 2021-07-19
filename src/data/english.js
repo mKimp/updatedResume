@@ -199,7 +199,7 @@ const data = {
         name: "Tic Tac Toe",
         techList: ["Java", "AI (MINIMAX with Alpha Beta Pruning)"],
         description: [
-          "Reduced the searching time for a move of a Tic Tac Toe robot by applying the minimax with alpha-beta pruning algorithm",
+          "Reduced the searching time for a move of a Tic Tac Toe robot by applying the minimax with alpha-beta pruning algorithm.",
         ],
         url: "https://agile-ridge-26387.herokuapp.com/",
       },

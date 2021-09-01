@@ -68,11 +68,15 @@ const data = {
 
   /**
    * Key skills
-   */
+   */ /*
   keySkills: {
-    title: "Languages",
-    list: [{ text: "Java" }, { text: "JavaScript" }, { text: "C++" }],
-  },
+    title: "Programming Languages",
+    list: [
+      { text: "Java" },
+      { text: "JavaScript" },
+      { text: "SQL" },
+    ],
+  },*/
 
   /**
    * Web tech skills
@@ -81,27 +85,28 @@ const data = {
   webSkills: {
     title: "Skills",
     list: [
-      { text: "Object Oriented Design" },
-      { text: "HTML5, CSS3" },
+      { text: "Java" },
+      { text: "JavaScript" },
       { text: "SQL" },
-
-      { text: "React, jQuery, Bootstrap" },
+      { text: "Object-Oriented Design" },
+      { text: "Responsive Design" },
+      { text: "Reactjs, HTML, CSS3" },
+      { text: "Bootstrap" },
       { text: "Nodejs, Express, REST APIs" },
-      { text: "Heroku, Wix, Junit, Postman" },
+      { text: "Heroku" },
     ],
   },
 
-  /**
-   * Additional skills
-   
+  //Additional skills
+
   additionalSkills: {
     title: "Additional skills",
     list: [
-      { text: "SQL" },
+      { text: "PostgreSql" },
       { text: "CMS (Wix), Git" },
       { text: "Unit Testing JUnit" },
       { text: "Postman" },
-    ], 
+    ],
   },
 
   /**
@@ -151,20 +156,21 @@ const data = {
   projects: {
     title: "Projects",
     list: [
-      /*
       {
-        name: 'PomoTodo App',
+        name: "Sms On-Time",
         techList: [
-          'React',
-          'React Router',
-          'JavaScript',
-          'MomentJs',
-          'Heroku'
+          "React",
+          "React Router",
+          "Express",
+          "PostgreSql",
+          "Twilio API",
+          "Postman",
+          "JWT Token",
         ],
-        description: 
-          ['Improved focuses on each daily task drastically by combining the Pomodoro technique with the to-do app, leading to not overspend time on each task.'] ,
-        url: 'https://pomotodo7.herokuapp.com/',
-      }, */
+        description: [
+          " Built a full-stack web app to manage the user's private phone book with a text messaging service from Twillo REST API.",
+        ],
+      },
       {
         name: "National DashBoard App",
         techList: [
@@ -176,7 +182,7 @@ const data = {
           "Heroku",
         ],
         description: [
-          "Interacted with National Park Service API to create highly interactive and responsive cards to display all necessary information about US National Parks in one application.",
+          "Created highly interactive and responsive information cards about US National Parks using the National Park Service API.",
         ],
         url: "https://agile-ridge-26387.herokuapp.com/",
       },
@@ -194,7 +200,7 @@ const data = {
         description: [
           "Created successfully a logged in feature of a chat room using a Smile ID (Facial Recognition) detection by implementing the open-source library Opencv4Node.",
         ],
-      },
+      } /*
       {
         name: "Tic Tac Toe",
         techList: ["Java", "AI (MINIMAX with Alpha Beta Pruning)"],
@@ -202,7 +208,7 @@ const data = {
           "Reduced the searching time for a move of a Tic Tac Toe robot by applying the minimax with alpha-beta pruning algorithm.",
         ],
         url: "https://agile-ridge-26387.herokuapp.com/",
-      },
+      }, */,
     ],
   },
 
@@ -223,8 +229,8 @@ const data = {
         },
         jobTitle: "Software Engineer Volunteer",
         description: [
-          "Handle programming duties including developing the new features and fixing the existing bugs.",
-          "Attend the weekly scrum meeting to develop and work on the items in the backlog.",
+          "Develop code to convert design wireframes into website elements using Styled Components and Typescript.",
+          "Inspect and debug the existing code to improve user experience.",
         ],
         description_team: `Researched and created the content of online summer youth camp.`,
       },
@@ -237,7 +243,8 @@ const data = {
         },
         jobTitle: "Information Technology Intern",
         description: [
-          `Updated website content regularly by adding new web pages with new content or updating the existing material, leading to a fresh and up-to-date website. `,
+          "Maintained, developed, and designed the organization's public website using Wix.",
+          "Collaborated weekly with the project manager to create new content for different campaigns.",
         ],
         description_team: `Researched and created the content of online summer youth camp.`,
       },
@@ -250,8 +257,8 @@ const data = {
         },
         jobTitle: "Helpdesk Agent",
         description: [
-          `
-        Provided general technical support to Portland State University's faculty, staff, and students by applying knowledge on network connectivity, virtual labs, and printers, resulting in helping to troubleshoot different types of problems.`,
+          "Served as the first point of contact for customers seeking technical assistance over the phone.",
+          "Performed remote troubleshooting through diagnostic techniques and pertinent questions.",
         ],
         description_team: `Worked collaboratively in a strong team-oriented environment.`,
       },
@@ -266,7 +273,7 @@ const data = {
     list: [
       {
         institution: "Portland State University",
-        description: "MS Computer Science",
+        description: "MS Computer Science, GPA: 3.8",
         date: {
           start: "2019-04",
           end: "2021-03",
@@ -281,8 +288,10 @@ const data = {
         },
       },
     ],
+    /*
     courses:
       "Data Structures and Algorithm, Software Engineering Development, Full-Stack Web Development, Introduction to Database (MySQL).",
+  */
   },
 };
 

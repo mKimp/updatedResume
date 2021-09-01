@@ -24,7 +24,7 @@ export default function App() {
       <div className='page'>
         <div className='column left'>
           <Details data={data.contact} />
-          <Details data={data.keySkills} defaultIcon={<CheckIcon />} />
+          {/*<Details data={data.keySkills} defaultIcon={<CheckIcon />} /> */}
           <Details data={data.webSkills} defaultIcon={<FullCheckIcon />} />
           <Details data={data.activities} />
           <Details data={data.certificates} />
@@ -32,8 +32,8 @@ export default function App() {
 
         <div className='column right'>
           <FullName text={data.fullName} />
-          <Projects data={data.projects} />
           <WorkExperience data={data.workExperience} />
+          <Projects data={data.projects} />
           <Education data={data.education} />
         </div>
       </div>
